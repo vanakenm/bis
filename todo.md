@@ -13,6 +13,10 @@
 - https://cdn.images.dailystar.co.uk/dynamic/28/photos/946000/620x/Plane-painted-white-548527.jpg
 - http://static4.uk.businessinsider.com/image/5508ae2cdd089581048b460a-480/sr-71-spy-plane.jpg
 
+## Todo
+
+ export GOOGLE_APPLICATION_CREDENTIALS=~/key.json
+
 ## Story
 
 "Bird identification society"
@@ -77,6 +81,20 @@ Bonus: geoloc & send that info too (reverse geolocate)
 - "Hi this is the BIS, according to our expert, you just found a <expert_opinion>
 
 Now our clerk is looking for work
+
+## Some words
+
+### Mind your keys
+* They can be used to impersonate you/your app
+* Or worse
+
+### So, you just coupled your business to someone else whims
+
+* Google Translate example
+* Twitter example
+* Facebook Developer API
+
+### This is an incredible time to be a developer
 
 # Trello
 
