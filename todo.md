@@ -1,3 +1,18 @@
+## Test images
+
+### Good
+
+- http://www.sciencemag.org/sites/default/files/styles/article_main_medium/public/images/ss-bird_honeycreeper.jpg
+- https://qph.ec.quoracdn.net/main-qimg-d5ef14a6733e4a0ff207c4c26db52341-c
+- https://qph.ec.quoracdn.net/main-qimg-eaa2d37b5813736d0f04deda26fa6d6f-c1
+- https://qph.ec.quoracdn.net/main-qimg-c4ea08d59fd099cde45014640402e767-c
+- https://qph.ec.quoracdn.net/main-qimg-6f1806cb0f3129675d0422c51174edcd-c
+
+### Bad
+
+- https://cdn.images.dailystar.co.uk/dynamic/28/photos/946000/620x/Plane-painted-white-548527.jpg
+- http://static4.uk.businessinsider.com/image/5508ae2cdd089581048b460a-480/sr-71-spy-plane.jpg
+
 ## Story
 
 "Bird identification society"
