@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @request.url %>
+</p>
+
+<p>
+  <strong>Where:</strong>
+  <%= @request.where %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @request.phone %>
+</p>
+
+<p>
+  <strong>Card id:</strong>
+  <%= @request.card_id %>
+</p>
+
+<p>
+  <strong>Contents:</strong>
+  <%= @request.image_contents %>
+</p>
+
+<%= link_to 'Edit', edit_request_path(@request) %> |
+<%= link_to 'Back', requests_path %>

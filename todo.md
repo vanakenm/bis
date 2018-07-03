@@ -47,23 +47,24 @@ On the server:
 - calling vision API
 - contains "bird"?
   - yes: call expert, give info, store back answer
-  - no: send SMS to the prankster
+  - no: reject the request from the prankster
 - send data back to the user
 
 Bonus: geoloc & send that info too (reverse geolocate)
 
 ## Steps
 
-### Form
+### x Form
 
 - Create a form with where it was found, phone number, image url, store in model (scaffold)
 - Could scaffold model with Request phonenumber where image
+- Bootstrap a bit (get it in the Gemfile from scratch?)
 
-### Start process
+### x Start process
 
 - Create card on trello with the info, using an API call
 
-### Identify bird
+### x Identify bird
 
 - Call google vision and check if contains "bird"
   - add "words" go model, store words there (; separated)
@@ -72,9 +73,11 @@ Bonus: geoloc & send that info too (reverse geolocate)
 
 ### Call the expert
 
+Along the way: ngrok rocks!
+
 - If words contains bird, calls the expert with: "Hi, this is the BIS, a user found a bird near <where> and we though it could be <words>. Can you tell us?
 - Add sid to model and store
-- On call back, store answer in "expert opinion"
+- On call back, store answer in "expert opinion" & move to done
 
 ### Call user back
 
@@ -95,6 +98,16 @@ Now our clerk is looking for work
 * Facebook Developer API
 
 ### This is an incredible time to be a developer
+
+* Hard problems vs Solved problems
+* Hard but solved:
+  - Route planning (google maps)
+  - Encryption (bcrypt, etc)
+  - Voice recognition
+  - Image analysis
+* Infrastructure heavy
+  - Route planning (google maps)
+  - Image analysis
 
 # Trello
 

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :requests
   post 'calls/voice'
   post 'calls/record'
 
